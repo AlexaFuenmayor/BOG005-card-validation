@@ -1,0 +1,123 @@
+html {
+    background-image: url(./Img/backk.jpg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  
+  header {
+    height: 50px;
+    width: auto;
+    background-color: white;
+    padding-top: 6px;
+    font-size: 40px;
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  
+  .cart {
+    margin-top: 3rem;
+    display: flex;
+    width: 90%;
+    max-width: 960%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .cart p {
+    color: aliceblue;
+  }
+  
+  .card {
+    width: 90%;
+    max-width: 960%;
+    margin-left: 30mm;
+    margin-right: 30mm;
+    display: block;
+  }
+  
+  img.movie1 {
+    width: 100%;
+    height: auto;
+  }
+  img.movie2 {
+    width: 100%;
+    height: auto;
+    margin-right: 30mm;
+  }
+  img.movie3 {
+    width: 100%;
+    height: auto;
+    margin-right: 30mm;
+  }
+  
+  .botones {
+    width: 100%;
+    max-width: 90%;
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  form {
+    height: 4cm;
+    border-radius: 2mm;
+    -webkit-border-radius: 2mm;
+    -moz-border-radius: 2mm;
+    -ms-border-radius: 2mm;
+    -o-border-radius: 2mm;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    width: 40%;
+    margin-left: 5cm;
+  }
+  form p {
+    margin-left: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  .tarjeta {
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    margin-left: 18%;
+    align-items: center;
+  }
+  input {
+    margin-top: 3mm;
+    margin-left: 29mm;
+    width: 200px;
+    height: 20px;
+  }
+  
+  .acept {
+    margin-left: 45mm;
+    margin-top: 4mm;
+  }
+  article {
+    height: 100px;
+  }
+  article,
+  #result {
+    width: 400px;
+    height: 20px;
+    padding-bottom: 2rem;
+    margin-left: 468px;
+    margin-top: 100px;
+  }
+  
+  .valid {
+    text-align: center;
+    margin-left: 100px;
+  }
+  
+  footer {
+    background-color: white;
+    color: black;
+    margin-top: 3rem;
+    text-align: center;
+    height: 5px;
+    width: 100%;
+  }
