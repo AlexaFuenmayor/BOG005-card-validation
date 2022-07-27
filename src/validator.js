@@ -4,9 +4,9 @@ const validator = {
     let numberPar = 0;
     let b = false;
 
-    for (let n = creditCardNumber.length -1; n >= 0; n--) {
-      let cDigit = creditCardNumber.charAt(n);
-      numberPar = parseInt(cDigit);
+    for (let i = creditCardNumber.length -1; i >= 0; i--) {
+      let cDigit = creditCardNumber.charAt(i);//devolvera el ultimo caracter de string y se guardara el ultimo numero en cDigit
+      numberPar = parseInt(cDigit); //convertira el string en  un entero
 
       if (b) {
         if ((numberPar *= 2) > 9) numberPar -= 9;

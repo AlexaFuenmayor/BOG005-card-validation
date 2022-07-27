@@ -5,7 +5,7 @@ const botonn = document.getElementById("button");
 let input = document.getElementById("card");
 
 function saveN() {
- // document.getElementById("result").style.visibility = "";
+
   let cardN = document.getElementById("card").value;
   //capturar en la variable cardN lo que el usuario digite en el campo input
   if (validator.isValid(cardN)) {
@@ -14,7 +14,7 @@ function saveN() {
 
   } else {
     document.getElementById("form").style.backgroundColor= "red";
-    document.getElementById("valid").innerHTML= "T A R J E T A    I N V Á L I D A";
+    document.getElementById("valid").innerHTML= "T A R J E T A  -  I N V Á L I D A";
   }
   let card = document.getElementById("card").value;
   //validator.maskify(card)
