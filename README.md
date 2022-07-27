@@ -16,7 +16,7 @@ el boleto de una pelicula en Cine Boletería.
 
 
 ## 2. Imagen del proyecto
-[Imagen FInal Proyecto](src/Img/Captura%20de%20pantalla%20(501).png)
+![Imagen Final Proyecto](src/Img/Captura%20de%20pantalla%20(501.png)
 
 
 
